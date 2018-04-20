@@ -1,0 +1,51 @@
+body {
+    padding:0;
+    margin:0;
+}
+
+main{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: palevioletred;
+    
+    padding: 25px;
+    
+}
+footer {
+    background-color: azure;
+    display:block;
+    position: absolute;
+    right: 0;
+  bottom: 0;
+  left: 0;
+    padding: 25px;
+    font-family: 'Magra', sans-serif;
+}
+h1 {
+    font-family: 'Black Han Sans', sans-serif;
+}
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display:inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {color:black;}
+a:hover {text-decoration: underline;}
